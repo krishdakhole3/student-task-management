@@ -1,0 +1,7 @@
+name = "student-task-api"
+main = "index.js"
+compatibility_date = "2026-10-13"
+
+[[kv_namespaces]]
+binding = "TASKS"
+id = "be8818a8be3e4cfcb8ca81b350f91f2a"

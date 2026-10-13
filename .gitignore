@@ -1,0 +1,30 @@
+# Terraform files and local state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+terraform.tfvars
+*.auto.tfvars
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Wrangler local data
+.wrangler/
+
+# Dependencies and system files
+node_modules/
+.DS_Store
+Thumbs.db
+
+tfplan
