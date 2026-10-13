@@ -9,7 +9,7 @@ resource "cloudflare_workers_script" "student_task_api" {
   content_file   = "${path.module}/../worker/index.js"
   content_sha256 = filesha256("${path.module}/../worker/index.js")
 
-  main_module       = "index.js"
+  main_module        = "index.js"
   compatibility_date = "2026-10-13"
 
   bindings = [
